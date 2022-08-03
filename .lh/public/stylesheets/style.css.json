@@ -1,0 +1,26 @@
+{
+    "sourceFile": "public/stylesheets/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1659517829662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1659517842048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,7 @@\n a {\n   color: #00B7FF;\n }\n \n-\n+.active {\n+  font\n+}\n"
+                },
+                {
+                    "date": 1659517851385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n   color: #00B7FF;\n }\n \n .active {\n-  font\n+  font-weight: bold;\n }\n"
+                }
+            ],
+            "date": 1659517829662,
+            "name": "Commit-0",
+            "content": "body {\n  padding: 50px;\n  font: 14px \"Lucida Grande\", Helvetica, Arial, sans-serif;\n}\n\na {\n  color: #00B7FF;\n}\n\n\n"
+        }
+    ]
+}

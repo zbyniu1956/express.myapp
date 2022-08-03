@@ -1,0 +1,26 @@
+{
+    "sourceFile": "routes/admin.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1659512641739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1659512650202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n const router = express.Router();\r\n \r\n /* GET home page. */\r\n router.get('/', (req, res, next) =>{\r\n-  res.render('quiz', { title: 'Quiz' });\r\n+  res.render('admin', { title: 'Quiz' });\r\n });\r\n \r\n module.exports = router;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1659512664024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n const router = express.Router();\r\n \r\n /* GET home page. */\r\n router.get('/', (req, res, next) =>{\r\n-  res.render('admin', { title: '' });\r\n+  res.render('admin', { title: 'Admin' });\r\n });\r\n \r\n module.exports = router;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1659512641739,
+            "name": "Commit-0",
+            "content": "const express = require('express');\r\nconst router = express.Router();\r\n\r\n/* GET home page. */\r\nrouter.get('/', (req, res, next) =>{\r\n  res.render('quiz', { title: 'Quiz' });\r\n});\r\n\r\nmodule.exports = router;"
+        }
+    ]
+}

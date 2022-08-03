@@ -1,0 +1,86 @@
+{
+    "sourceFile": "views/layout.jade",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1659513103161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1659513111653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n   head\n     title= title\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n-  \n+      ul\n     block content\n"
+                },
+                {
+                    "date": 1659513117892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n   head\n     title= title\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n-      ul\n+      ul \n+         li\n     block content\n"
+                },
+                {
+                    "date": 1659513131395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,7 @@\n     title= title\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n-         li\n+         li \n+           a()\n     block content\n"
+                },
+                {
+                    "date": 1659513133304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a()\n+           a(\"/\")\n     block content\n"
+                },
+                {
+                    "date": 1659513141492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(\"/\")\n+           a(\"/news\")\n     block content\n"
+                },
+                {
+                    "date": 1659513147726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n   body\n       ul \n          li \n            a(\"/news\")\n+           \n     block content\n"
+                },
+                {
+                    "date": 1659513170012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(\"/news\")\n-           \n+           a(\"/news\") \n+\n     block content\n"
+                },
+                {
+                    "date": 1659513176185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(\"/news\") \n+           a(\"/news\") Aktualności\n \n     block content\n"
+                },
+                {
+                    "date": 1659513201350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(\"/news\") Aktualności\n+           a(href\"/news\") Aktualności\n \n     block content\n"
+                },
+                {
+                    "date": 1659513209090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(href\"/news\") Aktualności\n+           a(href=\"/news\") Aktualności\n \n     block content\n"
+                },
+                {
+                    "date": 1659513347901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(href=\"/news\") Aktualności\n+           a(href=\"/news\")\n+            Aktualności\n \n     block content\n"
+                },
+                {
+                    "date": 1659513358421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n     link(rel='stylesheet', href='/stylesheets/style.css')\n   body\n       ul \n          li \n-           a(href=\"/news\")\n-            Aktualności\n+           a(href=\"/news\") Aktualności\n+           \n \n     block content\n"
+                },
+                {
+                    "date": 1659513364693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,9 @@\n   body\n       ul \n          li \n            a(href=\"/news\") Aktualności\n-           \n+           a(href=\"/news\") \n+           a(href=\"/news\") \n+           a(href=\"/news\") \n \n     block content\n"
+                },
+                {
+                    "date": 1659513408133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   body\n       ul \n          li \n            a(href=\"/news\") Aktualności\n+           \n            a(href=\"/news\") \n            a(href=\"/news\") \n            a(href=\"/news\") \n \n"
+                },
+                {
+                    "date": 1659513415413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   body\n       ul \n          li \n            a(href=\"/news\") Aktualności\n-           \n+         li   \n            a(href=\"/news\") \n            a(href=\"/news\") \n            a(href=\"/news\") \n \n"
+                },
+                {
+                    "date": 1659513427448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n          li   \n            a(href=\"/news\") \n          li   \n            a(href=\"/news\") \n-           \n+         li   \n            a(href=\"/news\") \n \n     block content\n"
+                },
+                {
+                    "date": 1659513427457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n          li   \n            a(href=\"/news\") \n          li   \n            a(href=\"/news\") \n-           \n+         li   \n            a(href=\"/news\") \n \n     block content\n"
+                }
+            ],
+            "date": 1659513103161,
+            "name": "Commit-0",
+            "content": "doctype html\nhtml\n  head\n    title= title\n    link(rel='stylesheet', href='/stylesheets/style.css')\n  body\n  \n    block content\n"
+        }
+    ]
+}

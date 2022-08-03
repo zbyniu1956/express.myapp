@@ -1,0 +1,18 @@
+{
+    "sourceFile": "views/news.jade",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1659512325028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1659512325028,
+            "name": "Commit-0",
+            "content": "extends layout\r\n\r\nblock content\r\n  h1= title\r\n  p Welcome to #{title}\r\n"
+        }
+    ]
+}
